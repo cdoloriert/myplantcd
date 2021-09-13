@@ -10,4 +10,8 @@ public class HomeController {
 	public String hello() {
 		return "hello";
 	}
+	
+	private int getNumber() {
+		return 9;
+	}
 }
